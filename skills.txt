@@ -1,10 +1,6 @@
 ### MY SKILLS ###
 
-1) Cloning
-
-
-
-
-
+1. Cloning
+2. Learn Branching
 
 Contact: dev@example.com
