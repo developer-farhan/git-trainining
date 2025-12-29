@@ -1,6 +1,7 @@
 ### MY SKILLS ###
 
-1. Cloning
-2. Learn Branching
+1) Cloning
+2) Branching
+3) Merge Conflicts
 
 Contact: dev@example.com
