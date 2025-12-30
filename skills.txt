@@ -4,4 +4,4 @@
 2) Branching
 3) Merge Conflicts
 
-Contact: dev@example.com
+Contact: dev@example.com <(^_^)>
