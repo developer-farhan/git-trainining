@@ -9,6 +9,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final kEnv = 'Dev';
     return const MaterialApp(
       title: 'Omega App Inc',
       home: Scaffold(body: Center(child: Text('Hello Omega App Inc'))),
