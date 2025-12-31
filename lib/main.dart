@@ -10,8 +10,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Omega App',
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+      title: 'Omega App Inc',
+      home: Scaffold(body: Center(child: Text('Hello Omega App Inc'))),
     );
   }
 }
