@@ -1,11 +1,7 @@
-name: authentication
-description: A new Flutter package for handling auth.
-version: 0.0.1
-environment:
-  sdk: '>=3.0.0 <4.0.0'
-
 dependencies:
   flutter:
     sdk: flutter
 
-flutter:
+  # 👇 Add this!
+  authentication:
+    path: packages/authentication
