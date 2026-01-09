@@ -1,0 +1,31 @@
+name: Guard Dog 🛡️
+
+# 1. The Trigger: When should the robot wake up?
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+# 2. The Job: What should it do?
+jobs:
+  quality-check:
+    runs-on: ubuntu-latest  # The robot's computer
+
+    steps:
+      # Step A: Download your code
+      - uses: actions/checkout@v3
+
+      # Step B: Install Flutter
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      # Step C: Get dependencies (The "bricks")
+      - run: flutter pub get
+
+      # Step D: Check for messy code
+      - run: dart format --set-exit-if-changed .
+
+      # Step E: Run the tests
+      - run: flutter test
