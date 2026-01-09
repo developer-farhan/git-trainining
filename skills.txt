@@ -1,10 +1,7 @@
 ### MY SKILLS ###
 
 1) Cloning
+2) Branching
+3) Merge Conflicts
 
-
-
-
-
-
-Contact: dev@example.com
+Contact: dev@example.com ༼ つ ◕_◕ ༽つ

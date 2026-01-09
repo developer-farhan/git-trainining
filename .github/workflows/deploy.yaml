@@ -1,0 +1,17 @@
+name: Deployment Pipeline 🚀
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  create-auth-package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # ⚠️ Important: Gets full history for subtree
+
+      - run: ./publish-subtree_script.sh
+        env:
+          API_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}

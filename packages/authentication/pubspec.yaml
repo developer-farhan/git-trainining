@@ -1,0 +1,7 @@
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 👇 Add this!
+  authentication:
+    path: packages/authentication
