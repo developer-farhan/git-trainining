@@ -9,6 +9,7 @@ on:
 
 # 2. The Job: What should it do?
 jobs:
+  # name job anything in this 'quality-check'
   quality-check:
     runs-on: ubuntu-latest  # The robot's computer
 
