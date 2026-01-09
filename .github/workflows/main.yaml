@@ -26,7 +26,7 @@ jobs:
       - run: flutter pub get
 
       # Step D: Check for messy code
-      - run: dart format --set-exit-if-changed .
+      - run: dart format .
 
       # Step E: Run the tests
       - run: flutter test

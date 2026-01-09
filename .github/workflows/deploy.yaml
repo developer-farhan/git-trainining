@@ -1,4 +1,4 @@
-name: The Delivery Driver
+name: Deployment Pipeline 🚀
 on:
   push:
     branches: [ main ]
@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0  # ⚠️ Important: Gets full history for subtree
-          
+
       - run: ./publish-subtree_script.sh
         env:
           API_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
